@@ -1,0 +1,89 @@
+/**index.wxss**/
+.slide-image{
+width:100%;
+display:inline-block;
+overflow:hidden;
+}
+.item-img{
+  width:18%;
+  height:90%;
+  margin-left:2%;
+}
+.list-container{
+  margin-top:10px;
+  border-top:1px solid #dadada;
+}
+.list-item{
+  height:100px;
+  border-bottom:1px solid #dadada;
+  padding-top:10px;
+  width:100%;
+  overflow: hidden;
+}
+li{
+  display:inline-block;
+  width:50%;
+  position:relative;
+  top:-58%;
+  left:2%;
+}
+.item-name{
+  color:#333;
+  font-size:15px;
+  display:inline-block;
+}
+.item-intro{
+  color:#999;
+  font-size:13px;
+  position:relative;
+  top:-52px;
+  left:22%;
+  width:58%;
+  display:inline-block;
+  text-overflow:ellipsis;
+  overflow:hidden;
+  white-space:nowrap;
+}
+.item-actors{
+  color:#999;
+  font-size:13px;
+  position:relative;
+  top:-48px;
+  left:22%;
+  width:58%;
+  display:inline-block;
+  text-overflow:ellipsis;
+  overflow:hidden;
+  white-space:nowrap;
+}
+.item-btn{
+  width:16%;
+  height:31%;
+  font-size:12px;
+  top:-78px;
+  border:1px solid #00CD00;
+  background:#fff;
+  color:#00CD00;
+  float:right;
+  margin-right:2%;
+  padding:0px 0px 0px 0px;
+}
+.item-score{
+  color:#8B0000;
+  font-size:15px;
+  position:relative;
+  top:-99%;
+  left:28%;
+}
+.item-type{
+  width:10%;
+  height:11%;
+  font-size:10px;
+  color:#1C86EE;
+  border:1px solid #1C86EE;
+  padding:1px;
+  border-radius:3px;
+  display:inline-block;
+  text-align:center;
+  margin-left:3%;
+}

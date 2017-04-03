@@ -1,0 +1,21 @@
+<!--pages/detail/detail.wxml-->
+<view class='container'>
+<view class="head">
+    <image src="{{item.img}}" class='detail-img'/>
+    <li>
+    <text class='detail-name'>{{item.name}}</text>
+    <text class='detail-score'>{{item.score}}分</text>
+    </li>
+    <text class='detail-style'>{{item.style}}</text>
+    <text class='detail-time'>{{item.time}}</text>
+    <text class='detail-intro'>{{item.introduce}}</text>
+</view>
+<view class='body'>
+    <text class='title'>剧情介绍</text>
+    <text class='detail-detail'>{{item.detail}}</text>
+    <hr/>
+    <text class='title'>演职人员</text>
+    <text class='detail-director'>导演：{{item.director}}</text>
+    <text class='detail-actors'>主演：{{item.actors}}</text>
+</view>
+</view>
