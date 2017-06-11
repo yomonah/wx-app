@@ -17,5 +17,10 @@
     <text class='title'>演职人员</text>
     <text class='detail-director'>导演：{{item.director}}</text>
     <text class='detail-actors'>主演：{{item.actors}}</text>
+    <hr/>
+    <text class='title'>精选影评</text>
+    <text class='detail-detail'>{{item.review}}</text>
+    <hr/>
+    <text class='detail-detail end'>公众号：嗨皮糖糖</text>
 </view>
 </view>

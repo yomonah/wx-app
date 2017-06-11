@@ -5,7 +5,7 @@ var app = getApp()
 Page({
   data: {
     imgUrls: ['../../img/one.jpeg',
-    '../../img/two.jpg',
+    '../../img/two.jpeg',
     '../../img/three.jpeg',
     '../../img/four.jpeg',
     '../../img/five.jpeg',
